@@ -23,7 +23,9 @@ with open("style.css") as f:
 if selected == "About me":
     st.write(
         """
-  # **Samarth Pratap Singh, CSE undergraduate**.
+  ## **Samarth Pratap Singh, CSE undergraduate**
+  \t\t
+  ##### *Jaypee Institute of Information Technology*
   ##### *Resume* 
   """
     )
@@ -172,7 +174,7 @@ if selected == "Projects":
     )
     st.markdown(
         """**Youtube Content moderation--**
-              the user will get information about the topics that arediscussed in the Youtube video and it also labels thecontent under various sub-headings. This can help add acheck on the videos and identify sensitive informationpresent in videos."""
+              the user will get information about the topics that are discussed in the Youtube video and it also labels the content under various sub-headings. This can help add a check on the videos and identify sensitive information present in videos."""
     )
 
 
